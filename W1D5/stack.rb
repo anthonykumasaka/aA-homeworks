@@ -17,6 +17,7 @@ class Stack
 
   def peek
     # returns, but doesn't remove, the top element in the stack
-    self.dup.pop 
+    # self.dup.pop
+    self.stack[-1]
   end
 end
