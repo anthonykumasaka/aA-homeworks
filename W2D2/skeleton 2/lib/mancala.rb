@@ -66,4 +66,4 @@ end
 if __FILE__ == $PROGRAM_NAME
   game = Mancala.new("Anthony", "Daniel")
   game.play
-end  
+end
